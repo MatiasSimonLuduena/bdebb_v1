@@ -1,0 +1,57 @@
+$rosa: #d45779;
+
+.section2 {
+    background-color: rgb(235, 235, 235);
+    margin-top: 35px;
+
+    .c-s1 {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+            text-transform: uppercase;
+            padding: 75px 50px 50px;
+            font-size: 2.4em;
+            font-weight: 900;
+            color: rgb(65, 65, 65);
+            letter-spacing: 1.5px;
+        }
+
+        .c-s1_p {
+            width: 100%;
+            max-width: 1000px;
+
+            p {
+                text-align: center;
+                color: rgb(30, 30, 30);
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 1.1em;
+                font-weight: 400;
+            }
+        }
+
+        button {
+            background-color: $rosa;
+            color: #fff;
+            border: none;
+            text-transform: uppercase;
+            padding: 10px 15px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 700;
+            letter-spacing: 1px;
+            border-radius: 5px;
+            animation: init .8s forwards;
+            animation-delay: .5s;
+            opacity: 0;
+            margin-top: 65px;
+            margin-bottom: 45px;
+    
+            &:hover {
+                background-color: #ee5f85;
+            }
+        }
+    }
+}

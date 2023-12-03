@@ -55,7 +55,9 @@ const Section1 = () => {
           </p>
         </div>
 
-        <button className="m-3">Comenzar ahora</button>
+        <div className="ms-5 pb-4 c-button">
+          <button className="m-3">Comenzar ahora</button>
+        </div>
       </div>
     </div>
   )
