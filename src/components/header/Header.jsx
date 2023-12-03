@@ -10,7 +10,11 @@ const Header = () => {
         <h2 className="pb-5">
           <span>Ahorro inteligente</span> para mamás prácticas.
         </h2>
-        <button className="mt-3">Comenzar ya</button>
+        <div>
+          <p>Ahorras aproximadamente un 80% en comparación con otras tiendas.</p>
+          <p>¡Te garantizamos una satisfacción del 100%!</p>
+        </div>
+        <button className="mt-5">Comenzar ya</button>
       </div>
     </div>
   )

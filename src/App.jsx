@@ -1,5 +1,4 @@
 // components
-import Navbar from "./components/navbar/Navbar"
 import Header from "./components/header/Header"
 import Section1 from "./components/section1/Section1"
 import About from "./components/about/About"
@@ -9,11 +8,9 @@ import Footer from "./components/footer/Footer"
 function App() {
   return (
     <>
-      <Navbar/>
       <Header/>
+      <Section1/>
       <div className="container">
-        <Section1/>
-        <hr/><br/>
         <About/>
         <hr/><br/>
         <Section2/>
