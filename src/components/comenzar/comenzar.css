@@ -1,0 +1,108 @@
+.comenzar {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("test5.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.comenzar h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #d45779;
+  letter-spacing: 1px;
+  font-size: 2em;
+  margin: 25px 0 15px;
+  text-align: center;
+  animation: init 0.8s forwards;
+}
+@media (max-width: 1200px) {
+  .comenzar h3 {
+    font-size: 1.5em;
+  }
+}
+.comenzar h4 {
+  font-size: 0.9em;
+  color: rgb(75, 75, 75);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  margin-bottom: 15px;
+  animation: init 0.8s forwards;
+}
+.comenzar .comenzar-ps {
+  margin: 30px 15%;
+  animation: init 0.8s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+.comenzar .comenzar-ps p {
+  font-size: 1.2em;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .comenzar .comenzar-ps {
+    margin: 30px 0;
+  }
+  .comenzar .comenzar-ps p {
+    font-size: 1.1em;
+    text-align: center;
+  }
+}
+.comenzar .comenzar-inputs {
+  animation: init 0.8s forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+.comenzar .comenzar-inputs .comenzar-inputs_i {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comenzar .comenzar-inputs .comenzar-inputs_i input {
+  width: 100%;
+  max-width: 350px;
+  padding: 7px;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #fbfbfb;
+  border: 2px solid transparent;
+  height: 36px;
+  box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgba(0, 0, 0, 0.07), 0 1px 1.5px 0 rgba(0, 0, 0, 0.05);
+  margin: 8px;
+}
+.comenzar .comenzar-inputs .comenzar-inputs_i input:focus {
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+@media (max-width: 600px) {
+  .comenzar .comenzar-inputs .comenzar-inputs_i {
+    flex-direction: column;
+  }
+}
+.comenzar .comenzar-inputs .comenzar-inputs_b {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.comenzar .comenzar-inputs .comenzar-inputs_b button {
+  background-color: #d45779;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  margin: 30px 0 0;
+  width: 100%;
+  max-width: 150px;
+}
+.comenzar .comenzar-inputs .comenzar-inputs_b button:hover {
+  background-color: #ee5f85;
+}
+
+/*# sourceMappingURL=comenzar.css.map */

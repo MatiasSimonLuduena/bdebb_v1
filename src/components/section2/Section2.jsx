@@ -1,5 +1,7 @@
 import "./section2.css"
 
+import { Link } from "react-router-dom"
+
 const Section2 = () => {
   return (
     <div className="section2">
@@ -16,7 +18,9 @@ const Section2 = () => {
             Si la respuesta es sí, te animamos a que des el siguiente paso. Haz click en el botón &quot;Comenzar Ahora&quot; y descubre una forma completamente nueva de abastecerte de ropa para tu pequeño. No solo estás haciendo una compra; estás invirtiendo en comodidad y ahorro.
           </p>
         </div>
-        <button>Comenzar ahora</button>
+        <Link to="/comenzar">
+          <button>Comenzar ahora</button>
+        </Link>
       </div>
     </div>
   )

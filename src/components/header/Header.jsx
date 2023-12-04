@@ -14,7 +14,9 @@ const Header = () => {
           <p>Ahorras aproximadamente un 80% en comparación con otras tiendas.</p>
           <p>¡Te garantizamos una satisfacción del 100%!</p>
         </div>
-        <button className="mt-5">Comenzar ya</button>
+        <a href="#section1">
+          <button className="mt-5">Saber más</button>
+        </a>
       </div>
     </div>
   )

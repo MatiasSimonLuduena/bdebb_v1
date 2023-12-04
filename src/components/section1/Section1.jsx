@@ -1,8 +1,10 @@
 import "./section1.css"
 
+import { Link } from "react-router-dom"
+
 const Section1 = () => {
   return (
-    <div className="section1">
+    <div className="section1" id="section1">
       <div className="container">
         <h3>¿Que ofrecemos?</h3>
         <div className="block">
@@ -53,7 +55,9 @@ const Section1 = () => {
           </p>
         </div>
         <div className="c-button">
-          <button className="m-3">Comenzar ahora</button>
+          <Link to="/comenzar">
+            <button className="m-3">Comenzar ahora</button>
+          </Link>
         </div>
       </div>
     </div>
