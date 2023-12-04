@@ -4,9 +4,9 @@ const Section1 = () => {
   return (
     <div className="section1">
       <div className="container">
+        <h3>¿Que ofrecemos?</h3>
         <div className="block">
           <div>
-            <h3>¿Que ofrecemos?</h3>
             <p>
               En B de Bebé, nos dedicamos a facilitar el ahorro a las mamás proporcionando lotes de ropa de segunda mano para sus bebés, ofreciendo una opción asequible y sostenible para que tu pequeño se vea adorable sin que tengas que comprometer tu presupuesto.
             </p>
@@ -18,38 +18,41 @@ const Section1 = () => {
               Cada prenda en nuestros lotes ha sido seleccionada con cuidado, garantizando no solo calidad y cuidado sino también una perfecta higiene y desinfección. No solo te ofrecemos ropa, sino una solución completa para el guardarropa de tu bebé. 
             </p>
           </div>
-          <img src="test3.jpg" alt="image" />
+          <img src="test2.jpg" alt="image" />
         </div>
         <div className="b-2">
-          <h3>Ofrecemos</h3>
+          <h3>Obtendrás</h3>
           <div className="contain-cards">
-            <div className="card-box">
-              <img src="icons/ahorros.png" alt="ahorro"/>
-              <p>20 prendas por tan solo $9500</p>
+            <div>
+              <img src="icons/tilde.png" alt="tilde" />
+              <p>20 prendas impecables por tan solo $9500.</p>
             </div>
-            <div className="card-box">
-              <img src="icons/seleccione.png" alt="seleccionar"/>
-              <p>Puedes seleccionar las prendas.</p>
+            <div>
+              <img src="icons/tilde.png" alt="tilde" />
+              <p>Interfáz para seleccionar las prendas.</p>
             </div>
-            <div className="card-box">
-              <img src="icons/bebe.png" alt="variedad" />
-              <p>Variedad en tallas y estilos.</p>
+            <div>
+              <img src="icons/tilde.png" alt="tilde" />
+              <p>Variedades en talles y estilos.</p>
             </div>
-            <div className="card-box">
-              <img src="icons/devolucion.png" alt="devolución" />
-              <p>Garantía de devolución.</p>
+            <div>
+              <img src="icons/tilde.png" alt="tilde" />
+              <p>Garantía de devolución en caso de disguste.</p>
             </div>
-            <div className="card-box">
-              <img src="icons/enviado.png" alt="envio" />
-              <p>Envio sin costo adicional</p>
+            <div>
+              <img src="icons/tilde.png" alt="tilde" />
+              <p>Envio a domicilio sin costo adicional.</p>
             </div>
+            <div>
+              <img src="icons/tilde.png" alt="tilde" />
+              <p>Multiples métodos de pagos.</p>
+            </div> 
           </div>
           <p className="p-msg">
             En B de Bebé, nos esforzamos por ofrecer una experiencia de compra sin preocupaciones. Desde la selección hasta la entrega, estamos aquí para hacer que la vida de las mamás sea más fácil y más asequible.
           </p>
         </div>
-
-        <div className="ms-5 pb-4 c-button">
+        <div className="c-button">
           <button className="m-3">Comenzar ahora</button>
         </div>
       </div>
