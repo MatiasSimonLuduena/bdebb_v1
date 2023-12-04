@@ -8,46 +8,40 @@ const Section1 = () => {
           <div>
             <h3>¿Que ofrecemos?</h3>
             <p>
-              En B de Bebé, nos dedicamos a facilitar el ahorro a las mamás proporcionando lotes o sets de ropa de segunda mano para sus bebés, ofreciendo una opción asequible y sostenible para que tu pequeño se vea adorable sin que tengas que comprometer tu presupuesto.
+              En B de Bebé, nos dedicamos a facilitar el ahorro a las mamás proporcionando lotes de ropa de segunda mano para sus bebés, ofreciendo una opción asequible y sostenible para que tu pequeño se vea adorable sin que tengas que comprometer tu presupuesto.
+            </p>
+            <h5>Nuestra premisa:</h5>
+            <p>
+              Al ofrecer ropa usada, podemos brindarte los mejores precios del mercado. Imagina tener el ropero de tu bebé lleno y listo para cada etapa de su crecimiento. Con nuestros lotes, te ahorrarás no solo grandes cantidades de dinero, sino también tiempo valioso que de otra manera se gastaría buscando constantemente nuevas prendas.
             </p>
             <p>
-              Nuestra premisa es simple: al ofrecer ropa usada, podemos brindarte los mejores precios del mercado. Imagina tener el ropero de tu bebé lleno y listo para cada etapa de su crecimiento. Con nuestros lotes, te ahorrarás no solo grandes cantidades de dinero, sino también tiempo valioso que de otra manera se gastaría buscando constantemente nuevas prendas.
-            </p>
-            <p>
-              En B de Bebé, comprendemos que cada mamá busca lo mejor para su bebé, y creemos que la ropa de segunda mano puede ser igual de encantadora y cómoda. Cada prenda en nuestros lotes ha sido seleccionada con cuidado, garantizando no solo calidad y cuidado sino también una perfecta higiene y desinfección.
-            </p>
-            <p>
-              No solo te ofrecemos ropa, sino una solución completa para el guardarropa de tu bebé. 
+              Cada prenda en nuestros lotes ha sido seleccionada con cuidado, garantizando no solo calidad y cuidado sino también una perfecta higiene y desinfección. No solo te ofrecemos ropa, sino una solución completa para el guardarropa de tu bebé. 
             </p>
           </div>
           <img src="test3.jpg" alt="image" />
         </div>
         <div className="b-2">
-          <h3>Obtendrás</h3>
+          <h3>Ofrecemos</h3>
           <div className="contain-cards">
             <div className="card-box">
-              <img src="icons/ahorros.png" alt="ahorro" />
-              <p>20 prendas adorables para tu bebé por tan solo $9500 pesos.</p>
+              <img src="icons/ahorros.png" alt="ahorro"/>
+              <p>20 prendas por tan solo $9500</p>
             </div>
             <div className="card-box">
-              <img src="icons/ahorros.png" alt="ahorro" />
-              <p>Puedes seleccionar las prendas que más te gusten o necesites.</p>
+              <img src="icons/seleccione.png" alt="seleccionar"/>
+              <p>Puedes seleccionar las prendas.</p>
             </div>
             <div className="card-box">
-              <img src="icons/ahorros.png" alt="ahorro" />
-              <p>Variedad en tallas y estilos. Desde recién nacidos hasta más grandecitos.</p>
+              <img src="icons/bebe.png" alt="variedad" />
+              <p>Variedad en tallas y estilos.</p>
             </div>
             <div className="card-box">
-              <img src="icons/ahorros.png" alt="ahorro" />
-              <p> Garantía de devolución en caso de cualquier inconveniente o disgusto.</p>
+              <img src="icons/devolucion.png" alt="devolución" />
+              <p>Garantía de devolución.</p>
             </div>
             <div className="card-box">
-              <img src="icons/ahorros.png" alt="ahorro" />
-              <p>Seguridad de pago. Tu eliges el método.</p>
-            </div>
-            <div className="card-box">
-              <img src="icons/ahorros.png" alt="ahorro" />
-              <p>¡Tu compra llegará directamente a tu puerta, sin costo adicional!</p>
+              <img src="icons/enviado.png" alt="envio" />
+              <p>Envio sin costo adicional</p>
             </div>
           </div>
           <p className="p-msg">

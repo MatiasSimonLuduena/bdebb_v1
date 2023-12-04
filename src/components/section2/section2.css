@@ -1,5 +1,5 @@
 .section2 {
-  background-color: rgb(235, 235, 235);
+  background-image: url("f.jpg");
   margin-top: 35px;
 }
 .section2 .c-s1 {
@@ -11,7 +11,7 @@
 }
 .section2 .c-s1 h3 {
   text-transform: uppercase;
-  padding: 75px 50px 50px;
+  padding: 75px 0 50px;
   font-size: 2.4em;
   font-weight: 900;
   color: rgb(65, 65, 65);

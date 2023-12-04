@@ -10,10 +10,10 @@ const Section2 = () => {
             En nombre de B de Bebé, estamos emocionados de presentarte una propuesta de valor que transformará tu experiencia. Si buscas calidad, conveniencia y ahorro, estás en el lugar adecuado.
           </p>
           <p>
-            ¿Te gustaría tener el control total sobre tu elección de prendas para tu bebé? ¿Valoras la garantía de higiene y cuidado en cada prenda?
+            ¿Te gustaría poder ahorrar gran parte de tu ingreso más en esta epoca de crisis?
           </p>
           <p>
-            Si la respuesta es sí, te animamos a que des el siguiente paso. Haz click en el botón &quot;Comenzar Ahora&quot; y descubre una forma completamente nueva de abastecerte de ropa para tu pequeño. No solo estás haciendo una compra; estás invirtiendo en comodidad, estilo y ahorro.
+            Si la respuesta es sí, te animamos a que des el siguiente paso. Haz click en el botón &quot;Comenzar Ahora&quot; y descubre una forma completamente nueva de abastecerte de ropa para tu pequeño. No solo estás haciendo una compra; estás invirtiendo en comodidad y ahorro.
           </p>
         </div>
         <button>Comenzar ahora</button>
