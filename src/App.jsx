@@ -34,7 +34,7 @@ function App() {
     };
 
     // Agrega el evento de clic a cada enlace
-    link.addEventListener('click', handleClick);
+    link && link.addEventListener('click', handleClick);
     
     // Limpia los eventos al desmontar el componente
     return () => {

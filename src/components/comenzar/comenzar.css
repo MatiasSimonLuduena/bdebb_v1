@@ -61,9 +61,13 @@
   justify-content: center;
   align-items: center;
 }
-.comenzar .comenzar-inputs .comenzar-inputs_i input {
+.comenzar .comenzar-inputs .comenzar-inputs_i div {
   width: 100%;
   max-width: 350px;
+  margin: 8px;
+}
+.comenzar .comenzar-inputs .comenzar-inputs_i div input {
+  width: 100%;
   padding: 7px;
   border-radius: 6px;
   font-size: 16px;
@@ -71,11 +75,15 @@
   border: 2px solid transparent;
   height: 36px;
   box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgba(0, 0, 0, 0.07), 0 1px 1.5px 0 rgba(0, 0, 0, 0.05);
-  margin: 8px;
 }
-.comenzar .comenzar-inputs .comenzar-inputs_i input:focus {
+.comenzar .comenzar-inputs .comenzar-inputs_i div input:focus {
   border: 2px solid #000;
   border-radius: 4px;
+}
+.comenzar .comenzar-inputs .comenzar-inputs_i div p {
+  font-size: 0.8em;
+  color: red;
+  margin: 5px 15px;
 }
 @media (max-width: 600px) {
   .comenzar .comenzar-inputs .comenzar-inputs_i {

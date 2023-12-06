@@ -1,8 +1,14 @@
 import "./section2.css"
 
 import { Link } from "react-router-dom"
+import { analytics } from "../../firebase"
+import { logEvent } from "firebase/analytics"
 
 const Section2 = () => {
+  function click() {
+    logEvent(analytics, 'click-comenzar');
+  }
+
   return (
     <div className="section2">
       <div className="container c-s1">
@@ -19,7 +25,7 @@ const Section2 = () => {
           </p>
         </div>
         <Link to="/comenzar">
-          <button>Comenzar ahora</button>
+          <button onClick={click}>Comenzar ahora</button>
         </Link>
       </div>
     </div>
