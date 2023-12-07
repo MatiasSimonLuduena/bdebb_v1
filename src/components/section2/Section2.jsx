@@ -1,12 +1,18 @@
 import "./section2.css"
 
 import { Link } from "react-router-dom"
-import { analytics } from "../../firebase"
-import { logEvent } from "firebase/analytics"
+
+// firebase
+import { firestore } from "../../firebase"
+import { doc, updateDoc } from "firebase/firestore";
 
 const Section2 = () => {
   function click() {
-    logEvent(analytics, 'click-comenzar');
+    const documentoRef = doc(firestore, 'bdebebe', localStorage.getItem('session'));
+    
+    updateDoc(documentoRef, {
+      clic2: "section 2"
+    }).then(() => console.log('Documento actualizado')).catch(err => console.log(err));
   }
 
   return (

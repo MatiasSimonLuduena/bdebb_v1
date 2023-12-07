@@ -7,12 +7,20 @@ import Footer from "./components/footer/Footer"
 import Comenzar from "./components/comenzar/Comenzar"
 
 // react
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 
 // router dom
 import { Route, Routes, Navigate } from "react-router-dom"
 
+// firebase
+import { firestore } from "./firebase"
+import { collection, addDoc } from "firebase/firestore"
+
+const storage = localStorage.getItem('session') ? localStorage.getItem('session') : false
+
 function App() {
+  const [session, setSession] = useState(storage);
+
   useEffect(() => {
     // Encuentra todos los enlaces que apuntan a secciones
     const link = document.querySelector('a[href^="#"]');
@@ -37,6 +45,21 @@ function App() {
     link && link.addEventListener('click', handleClick);
     
     // Limpia los eventos al desmontar el componente
+
+    // localstorage
+    async function storage() {
+      try {
+        if (!session) {
+          const res = await addDoc(collection(firestore, 'bdebebe'), {
+            session: true
+          });
+          localStorage.setItem('session', res.id);
+        }
+      } catch (error) {
+        console.log(error);
+      }
+    }
+    storage()
     return () => {
       link.removeEventListener('click', handleClick);
     };
